@@ -1,0 +1,15 @@
+name: melody_app
+description: Music player app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.40
+
+flutter:
+  uses-material-design: true
